@@ -22,3 +22,6 @@ Caso a branch não exista acontecerá um erro
 
 ##### Deletar remotamente uma Branch
     git push origin --delete <Nome da branch remota>
+
+##### Upar uma Branch local para o repositório remoto
+    git push --set-upstream origin <Nome da branch local>
