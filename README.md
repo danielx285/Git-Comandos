@@ -25,3 +25,6 @@ Caso a branch não exista acontecerá um erro
 
 ##### Upar uma Branch local para o repositório remoto
     git push --set-upstream origin <Nome da branch local>
+
+##### Baixar uma branch remota específica para trabalhar com ela localmente
+    git checkout -b <Nome da branch local> origin/<Nome da branch remota>
